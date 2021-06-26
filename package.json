@@ -1,0 +1,29 @@
+{
+  "name": "projet-pfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "@NadaMariem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.18",
+    "mongoose-hidden": "^1.9.1",
+    "multer": "^1.4.2",
+    "utils": "^0.3.1"
+  }
+}
